@@ -1,0 +1,160 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header_section {
+    padding-top: 10px;
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.nav_section {
+    margin: 0 100px;
+    position: relative;;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: inline-block;
+}
+
+.nav_section nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.nav_section li {
+    display: inline-block;
+    line-height: 34.81px;
+    margin: 0 10px;
+}
+
+.nav_section li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.hero_text {
+    display: flex;
+    margin: 0 100px;
+    height: 400px;
+    align-items: center;
+}
+
+.hero_main_text {
+    flex: 1;
+}
+
+.hero_main_text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 5px 0;
+}
+
+.hero_main_text p {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero_main_text .header_signup_btn {
+    margin: 5px 0;
+    color: whitesmoke;
+    background-color: #3882f6;
+    width: 75px;
+    text-align: center;
+    padding: 5px 0 5px;
+    border-radius: 5px;
+}
+
+.hero_img {
+    flex: 1;
+    text-align: center;
+}
+
+.hero_img img {
+    width: 200px;
+}
+
+/* Information */
+.heading_infor {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.infor_imgs {
+    display: flex;
+    margin: 40px 150px 90px;
+    gap: 20px;
+}
+
+.infor_imgs div {
+    flex: 1;
+    text-align: center;
+}
+
+.infor_imgs img {
+    flex: 1;
+    border-radius: 5px;
+    border: 2px solid #3882f6;
+    width: 100%;
+}
+
+/* Quote */
+.quote_section {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote_text {
+    font-size: 26px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.quote_author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Footer */
+.sign_up {
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 75px 100px;
+    color: #e5e7eb;
+    padding: 40px 75px;
+    display: flex;
+}
+
+.sign_up_text {
+    flex: 5;
+}
+
+.footer_signup_btn {
+    flex: 1;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    align-self: center;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.copyright {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
+    text-align: center;
+}
